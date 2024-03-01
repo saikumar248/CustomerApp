@@ -1,84 +1,69 @@
-Here's a sample `README.md` file for your GitHub repository, including instructions for executing the project and installing necessary dependencies:
+Here is a generated README.md file with instructions to execute the project and install the required packages:
 
-```markdown
 # Customer App
 
-This is a simple customer management application built with the MERN (MongoDB, Express, React, Node.js) stack.
+This is a customer management app with frontend and backend.
 
 ## Project Structure
 
 ```
 Customer-App/
 ├── Frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── App.js
-│   │   ├── App.css
-│   │   ├── CustomerTable.js
-│   │   ├── index.js
-│   │   ├── Pagination.js
-│   │   └── SearchPagination.js
+│ ├── public/
+│ ├── src/
+│ │ ├── App.js
+│ │ ├── App.css
+│ │ ├── CustomerTable.js
+│ │ ├── index.js
+│ │ ├── Pagination.js
+│ │ └── SearchPagination.js
 ├── Backend/
-│   ├── server.js
+│ ├── server.js
 └── node_modules/
 ```
 
-## Getting Started
+## Installation
 
-### Prerequisites
+### Frontend
 
-Before running this project, ensure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (including npm)
-- [MongoDB](https://www.mongodb.com/) (for backend)
-
-### Installation
-
-1. Clone the repository:
-
-```
-git clone https://github.com/your-username/customer-app.git
-```
-
-2. Install backend dependencies:
-
-```
-cd Customer-App/Backend
-npm install express pg
-```
-
-3. Install frontend dependencies:
-
-```
-cd ../Frontend
+```bash
+cd Frontend
+npm install
 npm install axios
 ```
 
-### Running the Project
+### Backend
 
-1. Start the backend server:
-
+```bash 
+cd Backend
+npm install
+npm install express pg
 ```
-cd ../Backend
-node server.js
-```
 
-2. Start the frontend:
+## Usage
 
-```
-cd ../Frontend
+### Frontend
+
+```bash
+cd Frontend 
 npm start
 ```
 
-3. Open your browser and navigate to `http://localhost:3000` to view the application.
+### Backend
+
+```bash
+cd Backend
+node server.js
+```
+
+The frontend will run on http://localhost:3000 and the backend on http://localhost:5000
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue if you encounter any problems.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Replace `your-username` in the clone URL with your GitHub username. Also, ensure to update the license section with the appropriate license you choose for your project.
+[MIT](https://choosealicense.com/licenses/mit/)
