@@ -5,7 +5,7 @@ This is a customer management app with frontend and backend.
 ## Project Structure
 
 ```
-Customer-App/
+CustomerApp/
 ├── Frontend/
 │ ├── public/
 │ ├── src/
@@ -14,7 +14,7 @@ Customer-App/
 │ │ ├── CustomerTable.js
 │ │ ├── index.js
 │ │ ├── Pagination.js
-│ │ └── SearchPagination.js
+│ │ └── SearchSortPagination.js
 ├── Backend/
 │ ├── server.js
 └── node_modules/
@@ -29,7 +29,7 @@ Install PostgreSQL on your system by following the instructions on the official 
 Create a new PostgreSQL database for this project.
 
 ### Configuration
-Configure the database connection in Customer-App/Backend/server.js file.
+Configure the database connection in CustomerApp/Backend/server.js file.
 
 Replace the connection details in server.js with your PostgreSQL database credentials.
 
