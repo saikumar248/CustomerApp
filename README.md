@@ -1,5 +1,3 @@
-Here is a generated README.md file with instructions to execute the project and install the required packages:
-
 # Customer App
 
 This is a customer management app with frontend and backend.
