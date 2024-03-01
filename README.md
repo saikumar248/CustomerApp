@@ -20,7 +20,18 @@ Customer-App/
 └── node_modules/
 ```
 
+
 ## Installation
+
+# Setting up PostgreSQL
+Install PostgreSQL on your system by following the instructions on the official website.
+
+Create a new PostgreSQL database for this project.
+
+# Configuration
+Configure the database connection in Customer-App/Backend/server.js file.
+
+Replace the connection details in server.js with your PostgreSQL database credentials.
 
 ### Frontend
 
