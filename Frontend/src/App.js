@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:9000/customers");
+        const response = await fetch("http://localhost:5000/customers");
         if (!response.ok) {
           console.log("Error Fetching data");
           throw new Error("Failed to fetch data");
