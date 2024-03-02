@@ -23,10 +23,7 @@ CustomerApp/
 
 ## Installation
 
-### Setting up PostgreSQL
-Install PostgreSQL on your system by following the instructions on the official website.
 
-Create a new PostgreSQL database for this project.
 # PostgreSQL Installation and Setup
 
 ### Step 1: Installation
