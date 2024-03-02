@@ -8,7 +8,7 @@ const port = 5000; // Choose any port you prefer
 const client = new Client({
   user: "postgres",
   host: "localhost",
-  database: "postgres",
+  database: "CustomerDB",
   password: "admin",
   port: 5432,
 });
