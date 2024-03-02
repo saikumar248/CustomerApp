@@ -125,7 +125,7 @@ VALUES
 
 -- Check if the number of records is 50
 SELECT COUNT(*) FROM customer;
-
+```
 
 ### Configuration
 Configure the database connection in CustomerApp/Backend/server.js file.
