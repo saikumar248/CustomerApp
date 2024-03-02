@@ -29,31 +29,31 @@ Install PostgreSQL on your system by following the instructions on the official 
 Create a new PostgreSQL database for this project.
 # PostgreSQL Installation and Setup
 
-## Step 1: Installation
+### Step 1: Installation
 
 - Install PostgreSQL on your system.
 
-## Step 2: Creation of Database Customer DB
+### Step 2: Creation of Database Customer DB
 
 - Create a database named `CustomerDB` in PostgreSQL.
 
-## Step 3: Navigating to Schemas in CustomerDB
+### Step 3: Navigating to Schemas in CustomerDB
 
 - Navigate to the schemas section in `CustomerDB`.
 
-## Step 4: Navigating to Tables in Schemas
+### Step 4: Navigating to Tables in Schemas
 
 - Within schemas, navigate to the tables.
 
-## Step 5: Right-click on Tables and Open Query Tool
+### Step 5: Right-click on Tables and Open Query Tool
 
 - Right-click on the tables and open the query tool.
 
-## Step 6: Code Editor for Query
+### Step 6: Code Editor for Query
 
 - In the query tool, you can use the code editor to run SQL queries.
 
-## Step 7: Creating Table Customers and Inserting Dummy Data
+### Step 7: Creating Table Customers and Inserting Dummy Data
 
 - Copy and paste the following code into the code editor to create the `customer` table and insert dummy data:
 
